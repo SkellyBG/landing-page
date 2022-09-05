@@ -39,7 +39,7 @@ body {
 .section-one {
     display: flex;
     padding: 7% 15%;
-    gap: 5%
+    gap: 3%
 }
 
 .main-text {
@@ -53,7 +53,15 @@ body {
     color: #E5E7EB;
 }
 
-
+.button {
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 0.4em 1.8em;
+    margin: 0.4em 0;
+    display: inline-block;
+    color: #E5E7EB;
+    font-size: 14px;
+}
 
 .content-left {
     flex: 1;
@@ -65,4 +73,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
 }
