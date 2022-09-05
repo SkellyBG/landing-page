@@ -5,7 +5,7 @@ body {
 }
 
 body > div {
-    padding: 0 22%;
+    padding: 0 22vw;
 }
 
 /* CSS Style for hero */
@@ -14,7 +14,7 @@ body > div {
 }
 
 .header {
-    padding: 0 15%;
+    padding: 0 15vw;
 }
 
 .navbar.main {
@@ -45,8 +45,8 @@ body > div {
 /* CSS Style for section one */
 .section-one {
     display: flex;
-    padding: 7% 15%;
-    gap: 3%
+    padding: 7vw 15vw;
+    gap: 3vw
 }
 
 .main-text {
@@ -86,7 +86,7 @@ body > div {
 
 /* CSS Style for section two */
 .section-two {
-    padding: 0 22% 3.5em;
+    padding: 0 22vw 3.5em;
     display: flex;
     flex-direction: column;
     /* align-content: center;
@@ -104,7 +104,7 @@ body > div {
 .information-container {
     display: flex;
     justify-content: space-between;
-    gap: 2%;
+    gap: 2vw;
 }
 
 .image-container {
@@ -124,7 +124,7 @@ body > div {
 /* CSS for section three */
 .section-three {
     background-color: #E5E7EB;
-    padding: 4.5em 22%;
+    padding: 4.5em 22vw;
 }
 
 .quote-text {
@@ -136,4 +136,32 @@ body > div {
 .quote-source {
     text-align: right;
     font-weight: 800;
+}
+
+/* CSS for section four */
+
+.section-four {
+    padding: 5em 15vw;
+}
+
+.banner {
+    background-color: #3882F6;
+    display: flex;
+    padding: 3em 7vw;
+    color: #F9FAF8;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.banner-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-text {
+    font-size: 14px;
+}
+
+.banner-button {
+    border: solid white 3px;
 }
