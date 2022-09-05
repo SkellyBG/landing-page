@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto'
+}
+
+.header, .section-one {
+    background-color: #1F2937;
+}
+
+.navbar.main {
+    padding: 0 15%;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    padding: 0.35em;
+    margin: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navbar .title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
