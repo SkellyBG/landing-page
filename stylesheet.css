@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto'
 }
 
+/* CSS Style for hero */
 .header, .section-one {
     background-color: #1F2937;
 }
@@ -24,7 +25,7 @@ body {
 .navbar li {
     padding: 0.35em;
     margin: 0;
-    font-size: 18px;
+    font-size: 14px;
     color: #E5E7EB;
 }
 
@@ -32,4 +33,36 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+/* CSS Style for section one */
+.section-one {
+    display: flex;
+    padding: 7% 15%;
+    gap: 5%
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+
+
+.content-left {
+    flex: 1;
+}
+
+.content-right {
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
