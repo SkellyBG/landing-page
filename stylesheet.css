@@ -78,7 +78,7 @@ body {
 
 /* CSS Style for section two */
 .section-two {
-    padding: 0 22%;
+    padding: 0 22% 3.5em;
     display: flex;
     flex-direction: column;
     /* align-content: center;
